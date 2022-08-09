@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;   */
+
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;  
+    background-color: hsl(218, 28%, 13%);
+}
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    width: 90%;
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px auto;
+}
+
+.container-figure{
+    width: 100px;
+    height: 30px;
+    
+}
+
+.logo-fylo{
+    width: 100%;
+    height: 100%;
+    
+}
+.enlaces-header{
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-end;  
+    width: 100%;
+}
+.enlaces-header a{
+    position: relative;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 13px;
+   
+}
+
+.container-img-ilutration{
+    width: 90%;
+    
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.img-illustration{
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.contenido-hover{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.contenido-hover .title{
+    color: #fff;
+    margin: 15px auto;
+}
+
+.contenido-hover .pharagrap{
+    color: #fff;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.enlace-hover{
+    background-color:aqua;
+    padding: 10px 60px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+/* ------------------ */
+
+
+.container-sub-hover{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-sub-hover img{
+    width: 80px;
+    margin: 70px auto;
+    display: block;
+}
+
+.container-sub-hover h2{
+    color: #fff;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+.container-sub-hover p{
+    color: #fff;
+}
+
+/* ------------------------------ */
+
+.section-productive{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.container-img-productive{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.img-productive{
+    width: 100%;
+    
+}
+
+
+.contenido-productive{
+    text-align: start;
+    color: #fff;
+}
+
+.contenido-productive h2{
+    width: 100%;
+    font-size: 18px;
+    margin: 30px 0px 15px;
+}
+
+.contenido-productive p{
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.enlace-productive{
+    color:aqua;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid aqua;
+    padding: 0px 0px 7px 0px;
+    margin-top: 30px;
+}
+.enlace-productive img{
+    margin-left: 5px;
+}
+
+
+/* ------------------------------------ */
+
+.container-mensajes{
+    margin-top: 100px;
+    padding: 0.1px;
+}
+
+.container-mensajes div{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.container-mensajes img{
+    border-radius: 50%;
+    width: 40px;
+    margin-top: 30px;
+}
+
+.mensaje-uno{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding:20px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 3px 3px 13px  rgba(255, 255, 255, 0.101);
+}
+
+
+
+
+.mensaje-uno div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+
+.mensaje-dos{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 3px 3px 13px  rgba(255, 255, 255, 0.101);
+}
+
+.mensaje-dos div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -50px;
+    
+}
+
+.mensaje-tres{
+    margin-top: 100px;
+    padding: 25px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 3px 3px 13px  rgba(255, 255, 255, 0.101);
+}
+
+
+.mensaje-tres div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+
+/* ------------------------------------------ */
+
+
+.container-email{
+    width: 90%;
+    height: 530px;
+    max-width: 500px;
+    background-color: hsl(217, 28%, 15%);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: 235px;
+    z-index: 100;
+}
+
+.input-email{
+    width: 90%;
+    height: 70px;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.input-enviar{
+    width: 90%;
+    height: 70px;
+    border-radius: 30px;
+    margin: 30px auto;
+    background-color: hsl(176, 68%, 64%);
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+
+.container-email h3{
+    color: #fff;
+    margin: 30px 0px 20px 0px;
+    font-size: 30px;
+}
+.container-email p{
+    width: 80%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* -------------------------------------------- */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 300px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+}
+
+
+
+.section-footer{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.container-logo-footer{
+    width: 200px;
+    height: 80px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logo-fylo-footer{
+    width: 40%;
+}
+
+.logo-ubicacion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.logo-ubicacion img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+
+.logo-ubicacion p{
+    width: 60%;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+.logo-telefono{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.logo-telefono img{
+    
+    width: 30px;
+    height: 20px;
+}
+
+.logo-telefono p{
+    width: 60%;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+.logo-gmail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.logo-gmail img{
+    
+    width: 30px;
+    height: 20px;
+}
+
+.logo-gmail p{
+    width: 60%;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.ultimo-section {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.enlace-uno{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.enlace-uno a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.enlace-dos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.enlace-dos a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+.container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    
+}
+
+.container-redes img{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+@media (min-width:1440px) {
+    
+    .container-header{
+        max-width: 1000px;
+    }
+
+
+    .contenido-hover .title{
+        margin: 50px auto;
+        width: 60%;
+        font-size: 40px;
+    }
+
+    .contenido-hover .pharagrap{
+        width: 50%;
+        font-size: 23px;
+    }
+
+    .enlace-hover{
+        padding: 15px 70px;
+        margin-top: 25px;
+    }
+  
+    .container-sub-hover{
+        width: 90%;
+        max-width: 1300px;
+        margin: 0px auto;
+        margin-top: 200px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .container-sub-hover div{
+        width: 50%;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-sub-hover p{
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .section-productive{
+        display: flex;
+        max-width: 1200px;
+    }
+
+    .contenido-productive{
+        width: 40%;
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-top: 200px;
+    }
+    .contenido-productive p{
+        width: 90%;
+    }
+
+    .contenido-productive h2{
+        width: 70%;   
+        font-size: 40px;
+    }
+
+    .enlace-productive{
+        width: 35%;
+    }
+ 
+
+    .container-img-productive{
+        width: 50%;
+        max-width: 700px;
+        margin: 0px auto;
+        margin-top: 200px;
+    }
+    
+    .img-productive{
+        width: 100%;
+        
+    }
+
+    .container-mensajes{
+        display: flex ;
+        max-width: 1500px;
+        margin: 0px auto;
+        margin-top: 100px;
+        
+    }
+
+    .container-mensajes div{
+        width: 100%;
+        margin: 20px;
+        max-width: 500px;
+        
+    }
+
+    .mensaje-uno div{
+        position: relative;
+        top: -65px;
+        left: 40px;
+    }
+
+    
+
+    .mensaje-dos div{
+        position: relative;
+        top: -65px;
+        left: 40px;
+    }
+    .mensaje-tres div{
+        position: relative;
+        top: -65px;
+        left: 40px;
+    }
+
+
+    .container-email{
+        max-width: 1000px;
+        height: 300px;
+        display: flex;
+        position: relative;
+        
+        top: 150px;
+        z-index: 100;
+        
+    }
+ 
+    .div-inputs{
+        display: flex;
+    }
+ 
+    .container-email p{
+        
+    }
+ 
+    .div-inputs{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .input-email{
+        width: 60%;
+    }
+
+    .input-enviar{
+        width: 30%;
+    }
+
+   
+
+
+
+    footer{
+        padding-bottom: 100px;
+    }
+   
+
+    footer section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    .container-logo-footer{
+        width: 90%;
+        height: 100px;
+        display: block;
+        overflow: hidden;
+        margin: 0px auto;
+        margin-bottom: 50px;
+        max-width: 1300px;
+    }
+
+    .section-footer{
+        max-width: 1300px;
+        margin: 0px auto;
+    }
+    .logo-fylo-footer{
+        width: 28%;
+        height: 100%;
+
+    }
+
+    .logo-ubicacion {
+        width: 40%;
+        
+    }
+    .logo-ubicacion p{
+        width: 80%;
+    }
+
+    .logo-telefono{
+        display: flex;
+        
+        margin: px;
+    }
+
+
+    .container-celular-email{
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    .ultimo-section{
+        width: 40%;
+    }
+
+    .ultimo-section a{
+        margin-left: 80px;
+    }
+
+
+    .container-redes{
+        width: 30%;
+        margin-left: 50px;
+    }
+    .container-redes a{
+        color: #fff;
+    
+    }
+
+    .container-redes img{
+        border: 1px solid #fff;
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+
+}
+
+
